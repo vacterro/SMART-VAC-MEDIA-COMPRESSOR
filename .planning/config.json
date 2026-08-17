@@ -1,0 +1,6 @@
+{
+    "workflow": {
+        "strict_mode": true,
+        "require_review": true
+    }
+}
