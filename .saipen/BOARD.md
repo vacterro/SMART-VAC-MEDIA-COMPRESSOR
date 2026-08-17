@@ -3,6 +3,7 @@
 ## DOING
 
 ## TODO
+- [ ] T-010 Hygiene: personal `session_log.txt` committed to repo | verify: add to .gitignore and remove from tracking
 
 ## DONE
 - [x] T-001 SMART VAC MEDIA COMPRESSOR - README + EN/RU/ET translations (v0.0.1)
