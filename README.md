@@ -1,5 +1,10 @@
 # SMART VAC MEDIA COMPRESSOR
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-0.0.1-green.svg)
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-red.svg)
+
 A lightweight, portable PyQt6 desktop utility for aggressive batch compression of images and videos. Designed for smart heuristics, rapid single-click conversions, and a customizable dark-mode aesthetic.
 
 ## Version
