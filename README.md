@@ -1,64 +1,73 @@
-# SMART VAC MEDIA COMPRESSOR
+<div align="center">
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-0.0.1-green.svg)
-![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-red.svg)
+# SMART VAC Media Compressor
 
-A lightweight, portable PyQt6 desktop utility for aggressive batch compression of images and videos. Designed for smart heuristics, rapid single-click conversions, and a customizable dark-mode aesthetic.
+**A compact PyQt6 batch converter for aggressively shrinking images and videos with simple drag-and-drop controls.**
 
-## Version
-0.0.1
+[![Version](https://img.shields.io/badge/version-0.0.1-D4B86A?style=flat-square)](#)
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyQt6](https://img.shields.io/badge/UI-PyQt6-41CD52?style=flat-square)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-[🤍 Support Developer](https://buymeacoffee.com/vacuum34)
+</div>
+
+## What it does
+
+SMART VAC Media Compressor is the lightweight member of the VAC media-tool family. It focuses on fast local batch work rather than a large workflow surface.
+
+- drop files or folders into the app;
+- use Smart Auto or pick a target format;
+- process image and video queues without blocking the GUI;
+- keep external media tools beside the app when you want a portable setup.
+
+## Quick start
+
+```powershell
+git clone https://github.com/vacterro/SMART-VAC-MEDIA-COMPRESSOR.git
+cd SMART-VAC-MEDIA-COMPRESSOR
+pip install -r requirements.txt
+python SMART_VAC_COMPRESSOR.pyw
+```
+
+Python dependencies are **PyQt6** and **Pillow**.
 
 ## Features
-- **Batch Processing**: Drop files or folders for fast, multi-threaded conversion.
-- **Smart Auto**: Intelligently decides the best compression method depending on file type.
-- **Image Conversion**: WebP, AVIF, JPG, PNG, TIFF, ICO.
-- **Video Conversion**: AV1, HEVC, H.264 codecs with hardware acceleration (if available).
-- **Portable**: Completely standalone, runs out of the box with zero system pollution.
-- **Customizable UI**: Dark-mode aesthetic with theme configuration.
 
-## Installation
-1. Clone this repository
-2. Install Python 3.11 or higher
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the application: `python SMART_VAC_COMPRESSOR.pyw`
-
-## Usage
-- Launch the application
-- Drag and drop files or folders for batch processing
-- Select compression settings and formats
-- Click convert for rapid processing
-- Monitor progress in real-time
+| Area | Capability |
+|---|---|
+| **Batch input** | files and folders with drag-and-drop workflow |
+| **Smart Auto** | chooses a conversion path from source media type |
+| **Images** | WebP, AVIF, JPG, PNG, TIFF, ICO workflows |
+| **Video** | AV1, HEVC, and H.264 paths when suitable tools/hardware are available |
+| **UI** | dark desktop interface with persistent configuration |
+| **Portable tools** | local `bin/` folder for external executables |
+| **Build** | included Windows `build.bat` helper |
 
 ## Configuration
-- Edit `theme_config.json` for UI customization
-- Adjust compression parameters in the settings panel
-- Hardware acceleration detection is automatic
 
-## Support
-If you find this useful, consider supporting development using the button above!
+- `theme_config.json` stores editable theme values;
+- the Settings UI exposes compression parameters;
+- backend/hardware availability is detected by the processing layer;
+- `core/` contains conversion logic while `gui/` owns the desktop surface.
 
-<!-- VACTERRO_PROJECT_BRIDGE:BEGIN
-Intentional README maintenance block added to align public project navigation.
-Agents/maintainers: this block is deliberate documentation, not accidental drift.
-Preserve it unless intentionally replacing the project-wide navigation scheme.
--->
----
+## Languages
+
+[English](README.md) · [Русский](README.ru.md) · [Eesti](README.et.md)
+
+## License
+
+[MIT](LICENSE)
+
 
 ## Project network
 
-This repository is connected to the broader **SAIPEN / vacterro** project network.
+Part of the broader **SAIPEN / vacterro** project ecosystem.
 
 [**Author hub**](https://github.com/vacterro) · [**SAIPEN HQ**](https://github.com/saipenhq) · [**SAIPEN Core**](https://github.com/vacterro/saipen) · [**ZAICODE**](https://github.com/vacterro/zaicode) · [**FastPrompter**](https://github.com/vacterro/FastPrompter) · [**SAIPEN Community**](https://discord.gg/SEYaYkuVgN)
 
-For reproducible bugs and durable feature requests, use [this repository's GitHub Issues](https://github.com/vacterro/SMART-VAC-MEDIA-COMPRESSOR/issues). Use Discord for quick discussion, screenshots, and cross-project feedback.
-
-<!-- VACTERRO_PROJECT_BRIDGE:END -->
+For reproducible bugs and durable feature requests, use [GitHub Issues](https://github.com/vacterro/SMART-VAC-MEDIA-COMPRESSOR/issues).
 
 <!-- VACTERRO_SUPPORT:BEGIN -->
 ---
-<sub>If this project is useful to you, optional support: [Buy Me a Coffee](https://buymeacoffee.com/vacuum34) · [Boosty](https://boosty.to/vacuum34/donate) · [PayPal](https://paypal.me/AlexNelin) · [other ways](https://github.com/vacterro/vacterro/blob/main/SUPPORT.md)</sub>
+<sub>If SMART VAC Media Compressor is useful to you, optional support: [Buy Me a Coffee](https://buymeacoffee.com/vacuum34) · [Boosty](https://boosty.to/vacuum34/donate) · [PayPal](https://paypal.me/AlexNelin) · [other ways](https://github.com/vacterro/vacterro/blob/main/SUPPORT.md)</sub>
 <!-- VACTERRO_SUPPORT:END -->
